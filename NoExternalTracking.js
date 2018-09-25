@@ -28,7 +28,7 @@ function cleanAll()
         }
     }
 
-    console.log(cleaned);
+    console.log("Removed " + cleaned + " trackers");
 }
 
 let intervalID = setInterval(cleanAll, 800);

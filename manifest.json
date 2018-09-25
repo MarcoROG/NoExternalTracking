@@ -12,6 +12,7 @@
 
   "content_scripts": [
     {
+      "matches": ["*://*.messenger.com/*"],
       "js": ["NoExternalTracking.js"]
     }
   ]
